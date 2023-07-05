@@ -1,0 +1,6 @@
+#!/bin/bash
+<<<<<<< HEAD
+/bin/ls -a --format=commas
+=======
+ls -a --format=commas
+>>>>>>> 3c87ca2a892d8251277eaa7055aa72591ad574e3
