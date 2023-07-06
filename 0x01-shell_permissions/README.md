@@ -1,1 +1,2 @@
 - 0-iam_betty: Changes the user to betty
+- 1-who_am_i: Prints the current user's username
