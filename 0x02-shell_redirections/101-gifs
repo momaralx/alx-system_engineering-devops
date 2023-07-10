@@ -1,2 +1,2 @@
 #!/bin/bash
-find -name "*.gif" -printf "%f\n" | sed 's#.*/##; s#[.][^.]*$##' | sort -n --ignore-case
+find -name "*.gif" -printf "%f\n" | tr -d ".gif" | sort -n --ignore-case
