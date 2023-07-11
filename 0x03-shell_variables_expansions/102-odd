@@ -1,2 +1,2 @@
 #!/bin/bash
-awk 'NR % 2 == 1 {print;}'
+while IFS= read -r line; do if [[ $((++c%3)) -eq 1 ]]; then echo $line ; fi; done
